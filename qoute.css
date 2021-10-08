@@ -1,0 +1,400 @@
+
+
+@media only screen and (min-width:100px){
+    
+/*body{
+    background-image: url('image/sky.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:center;
+}
+*/
+body{
+    text-align: center;
+}
+.firstPage{
+top : 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+
+
+}
+
+
+
+.h13{
+    color: red;
+    font-size: 40px;
+}
+
+
+#getStarted{
+    color: black;
+    background-color: blanchedalmond;
+    padding: 10px;
+    padding-right: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+#getStarted:hover{
+background-color: yellow;
+opacity: 0.5;
+color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* motivation list page*/
+
+#coverfirst{
+    font-size: 1.6em;
+    display: none;
+}
+
+.topStuff{
+    background-color: blue;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    color:black; 
+    cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 1000px;
+    margin: auto;
+    }
+    
+
+   
+    .slide-container11 .slide{
+        display: none;
+        width:100%;
+    }
+
+
+
+    .slide-container .prevRe,
+.slide-container .nextRe {
+    cursor: pointer;
+}
+
+
+
+
+
+
+.slide-container2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.slide-container2 .slide2{
+
+    width: 100%;
+    
+}
+
+
+
+.slide-container2 a{
+    color: black;
+}
+
+
+.slide-container2 .prevWi,
+.slide-container2 .nextWi {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.miniTop{
+    
+    color: white;
+}
+
+
+
+.numberCool{
+    margin-left: 250px;
+}
+
+.numberCool1{
+    margin-left: 280px;
+}
+
+
+.numberCool2{
+    margin-left: 240px;
+}
+
+
+#successPart{
+    cursor: pointer;
+}
+
+#relationshipPart{
+    cursor: pointer;
+}
+
+
+#wisdomPart{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+#text1{
+    position: absolute;
+    top:35%;
+    left: 23%;
+}
+
+#text2{
+    position: absolute;
+    top:35%;
+    left: 23%;
+}
+
+#text3{
+    position: absolute;
+    top:35%;
+    left: 23%;
+}
+#text4{
+    position: absolute;
+    top:35%;
+    left: 23%;
+}
+#text5{
+    position: absolute;
+    top:35%;
+    left: 23%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#prev{
+ border: none;
+ background-color: black;
+ color: white;
+ padding: 10px;
+ padding-right: 20px;
+font-size: 20px;
+
+}
+#prev:hover{
+ background-color: brown;
+   
+   }
+
+
+#next1{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+   font-size: 20px;
+}
+
+
+
+#next1:hover{
+    background-color: green;
+      
+      }
+
+
+
+      .prevRe{
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        padding-right: 20px;
+       font-size: 20px;
+      }
+
+
+
+
+
+      .prevRe:hover{
+        background-color: green;
+      }
+
+
+
+      .nextRe{
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        padding-right: 20px;
+       font-size: 20px;
+
+      }
+
+
+      .nextRe:hover{
+        background-color: green;
+      }
+
+
+      .prevWi{
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        padding-right: 20px;
+       font-size: 20px;
+      }
+
+      .prevWi:hover{
+        background-color: green;
+      }
+
+
+      .nextWi{
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        padding-right: 20px;
+       font-size: 20px;
+      }
+
+      .nextWi:hover{
+        background-color: green;
+      }
+/* going back decision*/
+
+.bigDecision{
+    top : 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+display: none;
+
+}
+
+.decision{
+background-color: black;
+color:white;
+padding: 20px;
+margin: 30px;
+cursor: pointer;
+}
+
+
+
+.decision1{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    margin: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    }
+
+
+
+
+#decision2{
+    background-color: black;
+color:white;
+padding: 20px;
+margin-left: 70px;
+cursor: pointer;
+
+
+}
+
+
+
+#decision0{
+    font-size: 1.6em;
+    margin-left: 30px; 
+    cursor: pointer;
+}
+
+
+
+}
